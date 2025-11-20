@@ -7,7 +7,6 @@ import "dayjs/locale/id";
 import { Provider } from 'jotai';
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { ReactNode } from "react";
-import { AppClient } from "./app-device";
 
 dayjs.locale("id");
 
@@ -24,8 +23,9 @@ export const App = ({ children }: App) => {
       <NuqsAdapter>
         <QueryClientProvider client={queryClient}>
           <ReactQueryDevtools initialIsOpen={false} />
-          <AppClient>
-            {children}</AppClient>
+          {/* <AppClient> */}
+          {children}
+          {/* </AppClient> */}
         </QueryClientProvider>
       </NuqsAdapter>
     </Provider>

@@ -1,3 +1,6 @@
 export * from "./use-device"
 export * from "./use-firebase"
 export * from "./use-imperative"
+export * from "./use-dialog"
+export * from "./use-mutate"
+export * from "./use-carousel"

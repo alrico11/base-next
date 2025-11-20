@@ -6,11 +6,7 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 export const firebaseConfig = {
-  apiKey: "AIzaSyDlUhqP2qHRoDw42pNsVmwzczHPRfu_LDM",
-  authDomain: "com-laparaga-app.firebaseapp.com",
-  projectId: "com-laparaga-app",
-  messagingSenderId: "1090432985181",
-  appId: "1:1090432985181:web:a5099c51a9fe7e84a685b4",
+
 };
 
 // Initialize Firebase
